@@ -20,7 +20,7 @@ public class CokeSpawn : MonoBehaviour
         if(!isSpawned)
         {
             isSpawned=true;
-            Instantiate(G, Spawnpoint.position, Quaternion.Euler(0,90,-90));
+            Instantiate(G, Spawnpoint.position, Quaternion.Euler(0,0,0));
             isSpawned=false;
         }
     }
