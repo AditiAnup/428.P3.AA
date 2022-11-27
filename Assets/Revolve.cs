@@ -17,5 +17,6 @@ public class Revolve : MonoBehaviour
     void Update()
     {
         transform.RotateAround(pivot.transform.position, new Vector3(0,1,0), rotationspeed*Time.deltaTime);
+        transform.Rotate (0,50*Time.deltaTime,0);
     }
 }
